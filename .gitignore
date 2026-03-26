@@ -1,0 +1,24 @@
+# Carpetas de librerías y diseño externo que no programaste tú
+public/
+vendor/
+node_modules/
+
+# Base de datos (Los .sql inflan los KLOC si los metes al escáner)
+*.sql
+database/
+# (Opcional, si tienes código PHP en database/ descomenta la de arriba)
+
+# Backups y binarios (No son métricas de código)
+*.zip
+*.tar.gz
+*.phar
+phpunit.phar
+
+# Archivos de la computadora y caché de pruebas
+.phpunit.result.cache
+.DS_Store
+Thumbs.db
+*.log
+
+# Secretos y credenciales
+.env
